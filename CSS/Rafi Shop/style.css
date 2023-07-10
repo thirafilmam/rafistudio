@@ -1,0 +1,70 @@
+*{
+    font-family: "Roboto";
+}
+section{
+    padding: 16px 128px;
+}
+p{
+    color: grey;
+    margin: 24px 0px 16px 0px;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 128px;
+}
+
+.header-about{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+#landing{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 24px;
+}
+#landing p{
+    margin-bottom: 10px;
+}
+.landing-margin{
+    margin-left: 16px;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    padding: 8px 24px;
+}
+.btn-alt{
+    background-color: white;
+    color: black;
+    margin-right: 50px;
+    border: 2px solid blue;
+}
+.btn-submit{
+    padding: 12px;
+}
+#promo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#promo-stats{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 32px;
+    padding: 12px;
+}
+#bundling{
+    display: flex;
+    justify-content: center;
+    margin: 0px 500px 0 500px;
+    align-self: center;
+}
+#pesan{
+    margin-bottom: 50px;
+}

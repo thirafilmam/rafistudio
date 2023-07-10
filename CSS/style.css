@@ -1,0 +1,36 @@
+* {
+    font-family:"Montserrat";
+}
+
+h1{
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0 0 25px 0;
+}
+a{
+    text-decoration:none ;
+    color: black;
+    font-size: 20;
+}
+p{
+    color: black;
+    margin: -10px 0 25px 0;
+}
+.btn1{
+    background-color: rgb(255, 217, 0);
+    color: white;
+    padding: 5px 15px;
+}
+
+.btn2{
+    background-color: white;
+    margin-right: 25px;
+    border: 2px solid rgb(255, 217, 0);
+    padding: 5px 15px;
+}
+.landing p{
+    margin-bottom: 20px;
+}
+nav > a {
+    color: blue;
+}

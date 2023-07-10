@@ -1,0 +1,61 @@
+body{
+    font: 16px/28px arial, sans-serif;
+    background-color:lightgrey;
+    color: black;
+    background-image: url(bg.jpg);
+}
+
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: white;
+}
+
+.container .header{
+    padding: 24px;
+}
+
+.container a{
+    font-style: none;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.header a{
+    text-decoration: none;
+}
+.header a:hover{
+    background-color: lightsalmon;
+    color: white;
+}
+.judul{
+    margin-left: 40px;
+}
+.gambar{
+    height: 300px;
+    background-image: url(image.jpg);
+    background-size: cover;
+    background-position: 0px -200px;
+    border-top: 10px solid lightblue;
+    border-bottom: 10px solid lightcoral;
+}
+.judul{
+    margin-top: 24px;
+    margin: 0px 20px 0px 20px;
+    padding: 5px;
+}
+.judul .tulis{
+    margin-top: -20px;
+}
+.judul .konten{
+    margin-top: 10px;
+    text-align: justify;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 10px;
+}
